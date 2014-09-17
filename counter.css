@@ -1,0 +1,18 @@
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.counter {
+    font-size: 28pt;
+    padding: 20px;
+}
+
+.counter:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.local span, .global span{
+    font-size: 250%;
+}

@@ -1,0 +1,19 @@
+<head>
+    <title>Counter</title>
+</head>
+
+<body>
+    {{> counter}}
+</body>
+
+<template name="counter">
+
+    <div class="local counter">
+        Local: <span>{{localCount}}</span>
+    </div>
+
+    <div class="global counter">
+        Global: <span>{{globalCount}}</span>
+    </div>
+
+</template>
