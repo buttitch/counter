@@ -5,12 +5,19 @@ body {
 
 .counter {
     font-size: 28pt;
-    padding: 20px;
+    padding: 10px;
 }
 
 .counter:hover {
-    color: red;
     cursor: pointer;
+}
+
+.local {
+    color: red;
+}
+
+.global {
+    color: blue;
 }
 
 .local span, .global span{
