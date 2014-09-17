@@ -1,3 +1,7 @@
+/**
+ * Marcin - 18/09/2014
+ */
+
 if (Meteor.isClient) {
 
     // local counter starts at 0
